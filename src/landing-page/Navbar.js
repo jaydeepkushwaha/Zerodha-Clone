@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Pricing(){
+function Navbar(){
     return(
         <div>
-            <h1>Pricing</h1>
+            <h1>Navbar</h1>
         </div>
     )
 }
-export default Pricing;
+export default Navbar;
