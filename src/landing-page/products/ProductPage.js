@@ -1,17 +1,12 @@
 import React from "react";
-import Hero from "./Hero";
-import LeftImage from "./LeftImage";
-import RightImage from "./RightImage";
-import Univers from "./Univers";
 
-function ProductPage (){
+function ProductPage() {
     return (
-        <>
-        <Hero />
-        <LeftImage/>
-        <RightImage/>
-        <Univers/>
-        </>
-    )
+        <div>
+            <h1>Product Page</h1>
+            <p>This is a placeholder for the Product Page.</p>
+        </div>
+    );
 }
+
 export default ProductPage;
