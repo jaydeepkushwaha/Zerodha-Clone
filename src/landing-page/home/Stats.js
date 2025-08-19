@@ -17,7 +17,7 @@ function Stats() {
                     <p style={{ color: "#666666" }} className='mb-5'>With initiatives like Nudge and Kill Switch, we don't just facilitate transactions, but actively help you do better with your money.</p>
                 </div>
                 <div className='col-7 p-5'>
-                    <img src='Accets/ecosystem.png' alt='Home hero' style={{ width: "90%" }} />
+                    <img src='Accets/ecosystem.png' alt='Home hero' style={{ width: "100%" }} />
                     <div className='  mt-5 fw-semibold text-center' style={{ color: "#387ED1" }}>
                         <a style={{ textDecoration: "none" }} href='#'>Explore our product &rarr;</a>
                         <a style={{ textDecoration: "none", marginLeft: "24px" }} href='#'>Try kite demo &rarr;</a>
