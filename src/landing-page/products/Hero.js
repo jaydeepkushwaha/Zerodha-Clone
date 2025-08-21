@@ -1,9 +1,14 @@
 import React from "react";
 
-function Hero (){
+function Hero() {
     return (
-        <div>
-            <h1>Hero</h1>
+        <div className="container">
+            <div className="text-center ProductA">
+                <h3>Zerodha Products</h3>
+                <p >Sleek, modern, and intuitive trading platforms</p>
+                <p>Check out our <a href="#">investment offerings &rarr;</a> </p>
+            </div>
+
         </div>
     )
 }

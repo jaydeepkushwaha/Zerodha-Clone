@@ -8,18 +8,18 @@ import Education from './Education';
 import OpenAccount from '../OpenAccount';
 import Footer from '../Footer';
 
-function HomePage(){
+function Home(){
     return(
         <>
-        <Navbar/>
+        
         <Hero/>
         <Stats/>
         <Pricing/>
         <Education/>
         {/* <Awards/> */}
         <OpenAccount/>
-        <Footer/>
+        
         </>
     )
 }
-export default HomePage;
+export default Home;

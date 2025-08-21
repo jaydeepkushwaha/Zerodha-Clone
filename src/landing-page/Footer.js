@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
     return (
         <div className="container">
-            <div className="row" style={{ marginBottom: "50px" }}>
+            <div className="row" style={{ marginBottom: "50px" , marginTop:"20px"}}>
                 <div className="col-2 mr-5 ml-3">
                     <img className="mb-2" style={{ height: "20px", width: "152.25px" }} src="Accets/logo.svg" />
                     <p className=" fw-semibold mt-3" style={{ color: "#424242", fontSize: "12px" }}>© 2010 - 2025, Zerodha Broking Ltd.
@@ -27,28 +27,28 @@ function Footer() {
                             <ul className="list-style footer-list">
                                 <li className='nav-head Heading'>Account</li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Open demat account</a>
+                                    <a href="#" className=" footerlink">Open demat account</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Minor demat account</a>
+                                    <a href="#" className=" footerlink">Minor demat account</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">NRI demat account</a>
+                                    <a href="#" className=" footerlink">NRI demat account</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Commodity</a>
+                                    <a href="#" className=" footerlink">Commodity</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Dematerialisation</a>
+                                    <a href="#" className=" footerlink">Dematerialisation</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Fund transfer</a>
+                                    <a href="#" className=" footerlink">Fund transfer</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">MTF</a>
+                                    <a href="#" className=" footerlink">MTF</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Referral program</a>
+                                    <a href="#" className=" footerlink">Referral program</a>
                                 </li>
                             </ul>
                         </div>
@@ -56,28 +56,28 @@ function Footer() {
                             <ul className="list-style footer-list">
                                 <li className='nav-head Heading'>Support</li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Contact us</a>
+                                    <a href="#" className=" footerlink">Contact us</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Support portal</a>
+                                    <a href="#" className=" footerlink">Support portal</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">How to file a complaint?</a>
+                                    <a href="#" className=" footerlink">How to file a complaint?</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Status of your complaints</a>
+                                    <a href="#" className=" footerlink">Status of your complaints</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Bulletin</a>
+                                    <a href="#" className=" footerlink">Bulletin</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Circular</a>
+                                    <a href="#" className=" footerlink">Circular</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Z-Connect blog</a>
+                                    <a href="#" className=" footerlink">Z-Connect blog</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Downloads</a>
+                                    <a href="#" className=" footerlink">Downloads</a>
                                 </li>
                             </ul>
                         </div>
@@ -85,25 +85,25 @@ function Footer() {
                             <ul className="list-style footer-list">
                                 <li className='nav-head Heading'>Company</li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">About</a>
+                                    <a href="#" className=" footerlink">About</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Philosophy</a>
+                                    <a href="#" className=" footerlink">Philosophy</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Press & media</a>
+                                    <a href="#" className=" footerlink">Press & media</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Careers</a>
+                                    <a href="#" className=" footerlink">Careers</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Zerodha Cares (CSR)</a>
+                                    <a href="#" className=" footerlink">Zerodha Cares (CSR)</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Zerodha.tech</a>
+                                    <a href="#" className=" footerlink">Zerodha.tech</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Open source</a>
+                                    <a href="#" className=" footerlink">Open source</a>
                                 </li>
                             </ul>
                         </div>
@@ -111,25 +111,25 @@ function Footer() {
                             <ul className="list-style footer-list">
                                 <li className='nav-head Heading'>Quick links</li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Upcoming IPOs</a>
+                                    <a href="#" className=" footerlink">Upcoming IPOs</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Brokerage charges</a>
+                                    <a href="#" className=" footerlink">Brokerage charges</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Market holidays</a>
+                                    <a href="#" className=" footerlink">Market holidays</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Economic calendar</a>
+                                    <a href="#" className=" footerlink">Economic calendar</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Calculators</a>
+                                    <a href="#" className=" footerlink">Calculators</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Markets</a>
+                                    <a href="#" className=" footerlink">Markets</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="nav-link footerlink">Sectors</a>
+                                    <a href="#" className=" footerlink">Sectors</a>
                                 </li>
                             </ul>
                         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import CreateTicket from "./CreateTicket";
 import Hero from "./Hero";
 
-function SupportPage (){
+function Support (){
     return (
         <>
         <Hero/>
@@ -10,4 +10,4 @@ function SupportPage (){
         </>
     )
 }
-export default SupportPage;
+export default Support;

@@ -5,55 +5,180 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-top: 56px;
+  /* Adjust to your navbar height */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.container{
+
+.container {
   width: 100%;
   max-width: 1200px;
   margin: auto;
 }
-.nav-link{
+
+p {
+  color: #666666;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #424242;
+}
+
+.nav-link {
   margin-left: 35px;
   font-size: 14px;
   font-weight: 500;
-  
+
 }
-.Heading{
+
+.Heading {
   color: #424242;
   font-size: 18px;
   margin-bottom: 15px;
-  text-align: center;
+  text-align: left;
   font-weight: 500;
 
 }
-.footerlink{
-color: #666666;
-margin-bottom: 10px;
-font-size: 14px;
-font-family: inherit;
-align-items: center;
-line-height: 2;
+
+.footerlink {
+  color: #666666;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: inherit;
+  text-align: left;
+  line-height: 2.5;
+  font-weight: 500;
 
 }
-.footer-list{
+
+.footer-list {
   list-style-type: none;
 }
-.footer-p{
+
+.footer-p {
   font-size: 10.4px;
   color: #9b9b9b;
 }
-.footer-a{
-   font-size: 12px;
+
+.footer-a {
+  font-size: 12px;
   color: #9b9b9b;
   list-style-type: none;
 }
-a{
-  text-decoration: none;  
+
+a {
+  text-decoration: none;
 }
-.ABC{
+
+.ABC {
   color: #9b9b9b;
+}
+
+/* Signup style */
+.Shead {
+  font-size: 1.75rem;
+  line-height: 1.25;
+  margin-bottom: 10px;
+  color: #424242;
+}
+
+.UnSinp {
+  font-size: 16px;
+  margin-Bottom:16px 0 15px 0;
+}
+.UnSin{
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 50px;
+}
+.ExploreCard{
+  width: 337px;
+  height: 160px;
+  padding: 20px;
+}
+.CardA{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.AboutA{
+  padding: 100px 20px;
+  text-align: center; 
+}
+.AboutB{
+  font-size: 24px;
+  line-height: 1.5;
+  color: #424242;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.AboutC{
+padding:0 0 0 80px;
+}
+.AboutE{
+padding:0 80px 0 50px ;
+}
+.AboutD{
+  font-size: 16px;
+  margin: 16px 0 15px;
+ line-height:2 ;
+ font-weight: 500;
+}
+.TeamA{
+
+}
+.TeamB{
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius:50%;
+  margin-bottom: 15px;
+}
+.TeamC{
+  text-align: left;
+}
+.ProductA{
+  padding: 100px 0;
+}
+.universA{
+  border: none;
+}
+.universimageA{
+  text-align: center;
+  height: 55px;
+  width: 200px;
+}
+.universimageB{
+  text-align: center;
+  height: 40px;
+  width: 228px;
+}
+.universimageC{
+  text-align: center;
+  height: 55px;
+  width: 145px;
+}
+.universimageD{
+  text-align: center;
+  height: 55px;
+  width: 166px;
+}
+.universimageE{
+  text-align: center;
+  height: 55px;
+  width: 210px;
+}
+.universimageF{
+  text-align: center;
+  height: 55px;
+  width: 144px;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "./Hero";
 import Brokrage from "./Brokrage";
 
-function PricingPage (){
+function Pricing (){
     return (
         <>
         <Hero/>
@@ -10,4 +10,4 @@ function PricingPage (){
         </>
     )
 }
-export default PricingPage;
+export default Pricing;
