@@ -132,9 +132,7 @@ padding:0 80px 0 50px ;
  line-height:2 ;
  font-weight: 500;
 }
-.TeamA{
 
-}
 .TeamB{
   height: 300px;
   width: 300px;
@@ -190,8 +188,9 @@ padding:0 80px 0 50px ;
 
 }
 .Supportbtn{
-  width: 100%;
+  width: 80%;
   text-align: end;
+  padding-right: 100px;
   
 }
 .SupportH{
@@ -251,5 +250,22 @@ padding:0 80px 0 50px ;
 }
 
 
-
-
+/* pricing page */
+.card-img-top{
+  width: 250px;
+  height: 185;
+  text-align: center;
+}
+.cardB{
+  text-align: center;
+}
+.cardA{
+  border: none;
+  
+}
+.cardMain{
+  margin: 100px 0 50px 0;
+}
+.cardH{
+  margin-bottom: 25px;
+}
