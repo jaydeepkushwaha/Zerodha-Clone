@@ -12,10 +12,12 @@ import Navbar from './landing-page/Navbar';
 import Footer from './landing-page/Footer';
 import NotFound from './landing-page/NotFound';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
   <Navbar/>
+ 
   <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/signup' element={<Signup/>}/>
