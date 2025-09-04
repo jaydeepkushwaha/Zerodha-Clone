@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Stocks() {
+    const navigate = useNavigate ();
+
+    const goToInvestment = ()=>{
+        navigate("/Investment");
+    }
+
     return (
         
         <div className="container text-center p-5">
@@ -42,7 +49,7 @@ function Stocks() {
                 </div>
             </div>
             <div>
-                <a className='btn btn-primary p-2 fs-5 fw-senibold w-25  '> Explore investments</a>
+                <a  className='btn btn-primary p-2 fs-5 fw-senibold w-25  ' onClick={goToInvestment}> Explore investments</a>
             </div>
 
         </div>

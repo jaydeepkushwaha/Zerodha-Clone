@@ -269,3 +269,26 @@ padding:0 80px 0 50px ;
 .cardH{
   margin-bottom: 25px;
 }
+.Investimg{
+  height: 90%;
+  width: 70%;
+  margin: 0 10px 0 100px;
+}
+.fa-circle-exclamation{
+padding: 0 5px 0 0 ;
+color: #9b9b9b;
+}
+.linkcontainer{
+  padding:  0 0 10px  0 ;
+ 
+  
+}
+.rightlink{
+  margin: 150px;
+  color: #424242;
+  font-weight:bold;
+}
+.lefttlink{
+  color: #424242;
+  font-weight:bold;
+}

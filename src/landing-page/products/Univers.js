@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
         return (
             <div className="container">
                 <div className="text-center p-5">
-                    <h5>Want to know more about our technology stack? Check out the <a href="#">Zerodha.tech</a> blog.</h5>
+                    <h5>Want to know more about our technology stack? Check out the <a href="https://zerodha.tech/">Zerodha.tech</a> blog.</h5>
                 </div>
                 <div className="text-center p-3">
                     <h4>The Zerodha Universe</h4>
