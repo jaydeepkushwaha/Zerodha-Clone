@@ -15,7 +15,7 @@ function RightImage({
 
 }) {
     return (
-        <div className="container">
+        <div className="container p-5">
             <div className="row">
                 <div className="col-6  " style={{ padding: "0 50px 0 10px" }} >
                     <h2 style={{ marginBottom: "20px" }}>{productName}</h2>
@@ -28,19 +28,11 @@ function RightImage({
                             <a className="lefttlink" href="#">{linkkite}&rarr;</a>
                             <a className="rightlink" href="#">{Stockreport}&rarr;</a>
                         </div>
-                        <div className="linkcontainer">
-                            <a className="lefttlink" href="#">{linkConsole}&rarr;</a>
-                            <a className="rightlink" href="#">{streak}&rarr;</a>
-                        </div>
-                        <div className="linkcontainer">
-                            <a className="lefttlink" href="#">{smallCase}&rarr;</a>
-                            <a className="rightlink" href="#">{Market}&rarr;</a>
-                        </div>
                     </div>
 
                 </div>
                 <div className="col-6 ">
-                    <a href="#" ><img className="Investimg" src={imageUrl} /></a>
+                    <a href="#" ><img className="InvestimgR" src={imageUrl} /></a>
                 </div>
             </div>
 
